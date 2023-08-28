@@ -8,10 +8,24 @@ body {
     height: 50px;
 }
 
+/* this nav bar */
 .nav {
+    display: flex;
+    justify-content: center;
     border: 1px black dashed;
-    text-align: center;
+    /* text-align: center; */
     height: 30px;
+}
+
+/* this is nav buttons group */
+.nav-buttons-group {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav-buttons li {
+    display: inline;
 }
 
 .hero {
